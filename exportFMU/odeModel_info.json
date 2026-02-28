@@ -1,0 +1,14 @@
+{"format":"Transformational debugger info","version":1,
+"info":{"name":"odeModel","description":"Description"},
+"variables":{
+"x":{"comment":"","kind":"state","type":"Real","unit":"","displayUnit":"","source":{"info":{"file":"/home/liangquan/modelicaTest/odeModel/odeModel.mo","lineStart":2,"lineEnd":2,"colStart":5,"colEnd":11}}},
+"der(x)":{"comment":"","kind":"derivative","type":"Real","unit":"","displayUnit":"","source":{"info":{"file":"/home/liangquan/modelicaTest/odeModel/odeModel.mo","lineStart":2,"lineEnd":2,"colStart":5,"colEnd":11}}}
+},
+"equations":[{"eqIndex":0,"tag":"dummy"},
+{"eqIndex":1,"section":"initial","tag":"assign","defines":["x"],"uses":[],"equation":["0.0"],"source":{"info":{"file":"/home/liangquan/modelicaTest/odeModel/odeModel.mo","lineStart":4,"lineEnd":4,"colStart":5,"colEnd":10}}},
+{"eqIndex":2,"tag":"alias","equation":[3],"section":"initial"},
+{"eqIndex":3,"section":"regular","tag":"assign","defines":["der(x)"],"uses":["x"],"equation":["1.0 - x"],"source":{"info":{"file":"/home/liangquan/modelicaTest/odeModel/odeModel.mo","lineStart":6,"lineEnd":6,"colStart":5,"colEnd":19}}}
+],
+"functions":[
+]
+}
