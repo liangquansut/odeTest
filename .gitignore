@@ -2,6 +2,42 @@
 # https://modelica.org/
 # Ignore temporary files, build results, simulation files
 
+# ============================
+# OpenModelica build artifacts
+# ============================
+
+# Generated C code, headers, objects
+*.c
+*.h
+*.o
+
+# Generated libraries and binaries
+*.so
+*.dll
+*.exe
+*.libs
+*.bin
+
+# Generated logs and reports
+*.log
+*.json
+*.xml
+*.html
+
+# FMU files and export directories
+*.fmu
+exportFMU/
+
+# Simulation results
+*.mat
+*.csv
+
+# OpenModelica generated makefiles
+*.makefile
+
+# Simulation folders
+simulateModel/
+
 ## Modelica-specific files
 *~
 *.bak
@@ -40,3 +76,19 @@ status
 stop
 success
 *.
+
+# ============================
+# General ignores
+# ============================
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python (if used)
+__pycache__/
+*.pyc
+venv/

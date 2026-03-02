@@ -1,9 +1,0 @@
-loadFile("../odeModel.mo");
-getErrorString();
-
-buildModel(odeModel);
-getErrorString();
-
-simulate(odeModel);
-getErrorString();
-plot(getSimulationResult());
