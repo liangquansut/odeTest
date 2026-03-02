@@ -249,9 +249,9 @@ struct OpenModelicaGeneratedFunctionCallbacks odeModel_callback = {
 };
 
 #define _OMC_LIT_RESOURCE_0_name_data "odeModel"
-#define _OMC_LIT_RESOURCE_0_dir_data "/home/liangquan/modelicaTest/odeModel"
+#define _OMC_LIT_RESOURCE_0_dir_data "/home/liangquan/OpenModelicaTest/odeTest"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_0_name,8,_OMC_LIT_RESOURCE_0_name_data);
-static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_0_dir,37,_OMC_LIT_RESOURCE_0_dir_data);
+static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_0_dir,40,_OMC_LIT_RESOURCE_0_dir_data);
 
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_RESOURCES,2,MMC_ARRAY_TAG) {MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_0_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_0_dir)}};
 void odeModel_setupDataStruc(DATA *data, threadData_t *threadData)
@@ -264,8 +264,8 @@ void odeModel_setupDataStruc(DATA *data, threadData_t *threadData)
   data->modelData->modelFilePrefix = "odeModel";
   data->modelData->modelFileName = "odeModel.mo";
   data->modelData->resultFileName = NULL;
-  data->modelData->modelDir = "/home/liangquan/modelicaTest/odeModel";
-  data->modelData->modelGUID = "{8b33ce02-391e-4740-8f93-d9667a2a451e}";
+  data->modelData->modelDir = "/home/liangquan/OpenModelicaTest/odeTest";
+  data->modelData->modelGUID = "{e9e5d869-ea6c-4d6c-8e31-c99ce9ad0345}";
   #if defined(OPENMODELICA_XML_FROM_FILE_AT_RUNTIME)
   data->modelData->initXMLData = NULL;
   data->modelData->modelDataXml.infoXMLData = NULL;

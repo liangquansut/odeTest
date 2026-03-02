@@ -9,11 +9,11 @@
 
   OPENMODELICAHOME                    = "/usr/bin/.."
 
-  guid                                = "{8b33ce02-391e-4740-8f93-d9667a2a451e}"
+  guid                                = "{e9e5d869-ea6c-4d6c-8e31-c99ce9ad0345}"
 
   description                         = "Description"
   generationTool                      = "OpenModelica Compiler OpenModelica 1.26.3"
-  generationDateAndTime               = "2026-02-27T16:52:06Z"
+  generationDateAndTime               = "2026-03-02T16:30:53Z"
 
   variableNamingConvention            = "structured"
 
@@ -65,7 +65,7 @@
     alias = "noAlias"
     classIndex = "0" classType = "rSta"
     isProtected = "false" hideResult = "" isEncrypted = "false" initNonlinear = "false"
-    fileName = "/home/liangquan/modelicaTest/odeModel/odeModel.mo" startLine = "2" startColumn = "5" endLine = "2" endColumn = "11" fileWritable = "true">
+    fileName = "/home/liangquan/OpenModelicaTest/odeTest/odeModel.mo" startLine = "2" startColumn = "5" endLine = "2" endColumn = "11" fileWritable = "true">
     <Real fixed="false" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
@@ -76,7 +76,7 @@
     alias = "noAlias"
     classIndex = "0" classType = "rDer"
     isProtected = "false" hideResult = "" isEncrypted = "false" initNonlinear = "false"
-    fileName = "/home/liangquan/modelicaTest/odeModel/odeModel.mo" startLine = "2" startColumn = "5" endLine = "2" endColumn = "11" fileWritable = "true">
+    fileName = "/home/liangquan/OpenModelicaTest/odeTest/odeModel.mo" startLine = "2" startColumn = "5" endLine = "2" endColumn = "11" fileWritable = "true">
     <Real fixed="false" useNominal="false" />
   </ScalarVariable>
 
