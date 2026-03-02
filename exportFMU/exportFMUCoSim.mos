@@ -1,0 +1,5 @@
+loadFile("../odeModel.mo");    // Load the Modelica model file
+getErrorString();
+
+buildModelFMU(odeModel, version="2.0", fmuType="cs");   // Build the FMU for co-simulation
+getErrorString();

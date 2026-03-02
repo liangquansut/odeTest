@@ -26,7 +26,7 @@
 
 # FMU files and export directories
 *.fmu
-exportFMU/
+# exportFMU/ # 发现不应把文件夹删除
 
 # Simulation results
 *.mat
@@ -36,7 +36,7 @@ exportFMU/
 *.makefile
 
 # Simulation folders
-simulateModel/
+# simulateModel/ # 发现不应把文件夹删除
 
 ## Modelica-specific files
 *~
